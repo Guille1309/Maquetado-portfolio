@@ -1,0 +1,171 @@
+body{
+  background-color: rgba(25, 16, 62, 1);
+  margin: 0;
+}
+
+.header{
+  background: black;
+  color: white;
+  padding: 1rem 0;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.header a{
+  color: white;
+  text-decoration: none;
+  padding: 0rem 1rem;
+}
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Logo {
+  width: 6.5rem;
+  height: auto;
+  }
+.navigation ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li{
+  display: inline-block;
+}
+.navigation ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 2s linear;
+  border-radius: 3px;
+}
+.navigation ul li a:hover{
+  background: #4a4a4a;
+}
+
+.menu-icon{
+  display: none;
+}
+@media  only screen and (max-width: 505px) {
+  .menu-icon{
+    display: block;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+  }
+  .navigation{
+      width: 100%;
+      padding-top: 0.5rem;
+      color: withe;
+    }
+    .navigation ul{
+      display: none;
+    }
+    .navigation ul.show{
+      display: block;
+    }
+    .navigation ul li{
+      display: block;
+    }
+    .navigation ul li a{
+      display: block;
+      padding: 0.5rem 1rem;
+      transition: all 0.4s linear;
+      border-radius: 3px;
+    }
+    .navigation ul li a:hover{
+      background: #4a4a4a;
+    
+    }
+}
+.banner {
+    width: 100%;
+    height: auto;
+  padding-top: 6.4rem;
+  }
+  .profile-image {
+      margin-left: 3%;
+    border-radius: 100%;
+    border: 5px solid rgba(25, 16, 62, 1);
+    width: 152px;
+    height: 152px;
+    margin-top: -122px;
+    z-index: 1;
+  }
+
+
+
+  .section{
+    background-color: black;
+    color: white;
+    font-size: 1.25vw; 
+    line-height: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  p {
+    font-size: 1vw;
+  }
+  h3{
+    margin-top: 0;
+  }
+  .texto{
+    background-color: black;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  }
+  .descrip {
+    background: black;
+    float: left;
+    margin:  0.5rem;
+    width: 25%;
+    text-align: center;
+  }
+  .Acerca-de- {
+    background: black;
+    float: left;
+    margin: 0.5rem;
+    padding-left: 1rem;
+    border: 0.1rem solid rgba(25, 16, 62, 1);
+    border-radius: 0.55rem;
+    width: 75%;
+  }
+  .Acerca-de- h3{
+    margin-top: 1rem;
+  }
+
+
+
+  .Experiencia {
+    padding: 1rem;
+    margin: 1rem;
+    border: 0.1rem solid rgba(25, 16, 62, 1);
+    border-radius: 0.55rem;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+
+  }
+
+
+  .Educación{
+    padding: 1rem;
+    margin: 1rem;
+    border: 0.1rem solid rgba(25, 16, 62, 1);
+    border-radius: 0.55rem;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  }
+  .Images{
+    float:left;
+    width: 30%;
+  }
+  .Educación p{
+    float:left;
+    width: 50%;
+    line-height: 0;
+  }
+  br{
+    line-height: 10rem;
+  }  
